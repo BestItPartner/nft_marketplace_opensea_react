@@ -21,7 +21,7 @@ This project relies on [NFT Contracts](https://github.com/BestItPartner/nft_cont
 
 See it live on [Rinkeby Network](https://nft.s2paganini.com) 
 
-See [my portfolio](https://s2paganini.com/case/ckm0zl44o0w1i0a54lryryi1d) for more details 
+See [my portfolio](https://kentaro.trustsdev.com/) for more details 
 
 <hr />
 
@@ -60,6 +60,6 @@ REACT_APP_RPC_URL_4=https://rinkeby.infura.io/v3/INFURA_KEY
 
 Donations in ETH or BTC are welcome 
 
-**ETH** `0x762f70367953aa0fE44C640bBa3FCccCCdC81b01`
+**ETH** `0x09671368DdB64405d3F2E029E8c0DB9c80Ee7234`
 
 **BTC** `bc1qpn2qcdvsuxtpvxv7ec5mv2fycu60pp0ye8tnhx`

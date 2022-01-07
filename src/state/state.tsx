@@ -1,4 +1,4 @@
-import NFTT from '@fluuuid/nft-contracts/build/contracts/NFTT.json'
+import NFTT from '../nft_contract_solidity/build/contracts/NFTT.json'
 import create from 'zustand'
 import { BigNumber, Contract, utils, Event } from 'ethers'
 
@@ -43,6 +43,8 @@ const useAppState = create<StateContext>((set, get) => ({
   setContract: async (library: any, chainId: number) => {
     try {
       if (!library) throw new Error('No Web3 Found')
+
+      console.log(NFTT);
 
       const networkid = (id: number) => {
         switch (id) {

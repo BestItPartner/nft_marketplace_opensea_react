@@ -17,6 +17,7 @@ import useSWR from 'swr'
 import { useAppState } from '../../state'
 import { fetcherMetadata, fetchOwner } from '../../utils/fetchers'
 import { formatPriceEth, METADATA_API, toShort } from '../../utils'
+import { Exception } from '@sentry/types'
 
 export type TokenProps = {
   id: string
@@ -60,7 +61,7 @@ const Token = ({ token, isOnSale, onTransfer, onBuy, onSale }: TokenCompProps) =
       await setTokenSale(token.id, utils.parseEther(price), true)
       setOnSale(false)
     } catch (e) {
-      throw new Error(e)
+      console.log("onSaleClick error");
     }
   }
 
